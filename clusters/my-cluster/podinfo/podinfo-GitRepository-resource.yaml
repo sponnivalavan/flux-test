@@ -3,6 +3,8 @@ kind: GitRepository
 metadata:
   name: podinfo
   namespace: podinfo
+  annotations:
+    source-file: "clusters/my-cluster/podinfo/podinfo-GitRepository-resource.yaml"
 spec:
   interval: 2m0s
   ref: {}
