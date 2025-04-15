@@ -3,6 +3,8 @@ kind: Kustomization
 metadata:
   name: podinfo
   namespace: podinfo
+  annotations:
+    source-file: "clusters/my-cluster/nginx/podinfo-Kustomization-resource.yaml"
 spec:
   interval: 5m0s
   path: ./kustomize
