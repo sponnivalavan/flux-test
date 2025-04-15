@@ -4,7 +4,7 @@ metadata:
   name: podinfo
   namespace: podinfo
   annotations:
-    source-file: "clusters/my-cluster/podinfo/podinfo-Kustomization-resource.yaml"
+    source-file: "podinfo-Kustomization-resource.yaml"
 spec:
   interval: 5m0s
   path: ./kustomize
