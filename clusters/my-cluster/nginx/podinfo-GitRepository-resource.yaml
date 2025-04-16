@@ -4,6 +4,7 @@ metadata:
   name: podinfo
   namespace: podinfo
 spec:
-  interval: 2m0s
-  ref: {}
+  interval: 5m0s
+  ref:
+    branch: master
   url: https://github.com/stefanprodan/podinfo
