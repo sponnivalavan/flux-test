@@ -2,7 +2,7 @@ apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
   annotations:
-    source-file: ""
+    source-file: podinfo-GitRepository-resource.yaml
   name: podinfo
   namespace: podinfo
 spec:
