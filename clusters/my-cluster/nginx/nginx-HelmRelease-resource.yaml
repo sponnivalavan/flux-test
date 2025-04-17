@@ -10,7 +10,7 @@ spec:
     spec:
       chart: nginx
       sourceRef:
-        kind: GitRepository
+        kind: HelmRepository
         name: bitnami
         namespace: nginx
       version: 15.x
