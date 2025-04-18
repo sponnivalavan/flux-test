@@ -15,5 +15,7 @@ spec:
     name: podinfo
     namespace: podinfo
   targetNamespace: podinfo
+  createNamespace: true
   timeout: 3m0s
   wait: true
+
