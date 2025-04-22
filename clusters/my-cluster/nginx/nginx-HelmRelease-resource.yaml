@@ -14,10 +14,10 @@ spec:
         name: bitnami
         namespace: nginx
       version: 15.x
-  interval: 5m0s
+  interval: 2m0s
   targetNamespace: nginx
   values:
-    replicaCount: 3
+    replicaCount: 2
     resources:
       limits:
         cpu: 200m
