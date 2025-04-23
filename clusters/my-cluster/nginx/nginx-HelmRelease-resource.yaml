@@ -15,13 +15,4 @@ spec:
   interval: 5m0s
   targetNamespace: nginx
   values:
-    replicaCount: 2
-    resources:
-      limits:
-        cpu: 200m
-        memory: 256Mi
-      requests:
-        cpu: 100m
-        memory: 128Mi
-    service:
-      type: ClusterIP
+    replicaCount: 3
