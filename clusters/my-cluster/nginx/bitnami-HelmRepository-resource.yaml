@@ -4,5 +4,5 @@ metadata:
   name: bitnami
   namespace: nginx
 spec:
-  interval: 5m0s
+  interval: 2m0s
   url: https://charts.bitnami.com/bitnami
