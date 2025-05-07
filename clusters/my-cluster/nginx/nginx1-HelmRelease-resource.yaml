@@ -4,7 +4,7 @@ metadata:
   annotations:
     source-file: nginx1-HelmRelease-resource.yaml
   name: nginx1
-  namespace: nginx
+  namespace: my-nginx-namespace
 spec:
   chart:
     spec:
