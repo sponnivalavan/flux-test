@@ -17,4 +17,4 @@ spec:
   interval: 5m0s
   targetNamespace: nginx
   values:
-    replicaCount: 2
+    replicaCount: 1
