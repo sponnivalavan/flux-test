@@ -1,5 +1,5 @@
 apiVersion: kustomize.toolkit.fluxcd.io/v1
-kind: Kustomizationss
+kind: Kustomization
 metadata:
   annotations:
     source-file: podinfo-Kustomization-resource.yaml
