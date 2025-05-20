@@ -1,5 +1,5 @@
 apiVersion: kustomize.toolkit.fluxcd.io/v1
-kind: Kustomizations
+kind: Kustomization
 metadata:
   annotations:
     source-file: podinfo-Kustomization-resource.yaml
@@ -7,7 +7,7 @@ metadata:
   namespace: podinfo
 spec:
   interval: 1m0s
-  path: ./kustomize
+  path: ./kustomizex
   prune: false
   retryInterval: 2m0s
   sourceRef:
