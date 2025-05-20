@@ -6,9 +6,6 @@ metadata:
   name: nginx
   namespace: nginx
 spec:
-  install:
-    remediation:
-      retries: -1
   chart:
     spec:
       chart: nginx
@@ -16,6 +13,7 @@ spec:
         kind: HelmRepository
         name: bitnami
         namespace: nginx
+        version: 15.0.x
   install:
     remediation:
       retries: 1
