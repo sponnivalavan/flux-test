@@ -16,7 +16,16 @@ spec:
         kind: HelmRepository
         name: bitnami
         namespace: nginx
-      version: 20.0.x
+  install:
+    remediation:
+      retries: 1
+  upgrade:
+    remediation:
+      retries: 1
+  test:
+    enable: true
+  driftDetection:
+    mode: enabled
   interval: 3m0s
   targetNamespace: nginx
   values:
