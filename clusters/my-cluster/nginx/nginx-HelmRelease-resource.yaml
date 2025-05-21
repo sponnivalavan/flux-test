@@ -15,6 +15,7 @@ spec:
         namespace: nginx
       version: 15.x
   interval: 3m0s
+  timeout: 10m0s
   targetNamespace: nginx
   values:
     replicaCount: 2
