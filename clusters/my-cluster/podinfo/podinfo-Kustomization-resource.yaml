@@ -7,7 +7,7 @@ metadata:
   namespace: podinfo
 spec:
   interval: 1m0s
-  path: ./kustomizex
+  path: ./kustomize
   prune: false
   retryInterval: 2m0s
   sourceRef:
