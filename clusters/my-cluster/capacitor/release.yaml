@@ -5,7 +5,7 @@ metadata:
   namespace: capacitor
 spec:
   targetNamespace: capacitor
-  interval: 10m
+  interval: 1m
   wait: true
   prune: true
   path: "./"
