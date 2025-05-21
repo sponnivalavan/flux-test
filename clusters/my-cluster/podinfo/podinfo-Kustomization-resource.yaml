@@ -7,12 +7,12 @@ metadata:
   namespace: podinfo
 spec:
   interval: 1m0s
-  path: ./kustomize
+  path: ./kustomizex
   prune: false
   retryInterval: 2m0s
   sourceRef:
     kind: GitRepository
-    name: podinfox
+    name: podinfo
     namespace: podinfo
   targetNamespace: podinfo
   timeout: 3m0s
