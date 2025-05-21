@@ -19,3 +19,5 @@ spec:
   targetNamespace: nginx
   values:
     replicaCount: 2
+    service:
+      type: ClusterIP
