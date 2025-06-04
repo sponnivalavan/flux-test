@@ -16,4 +16,6 @@ spec:
       version: 15.x
   interval: 5m0s
   targetNamespace: nginx
-  values: {}
+  values:
+    service:
+      type: ClusterIP
