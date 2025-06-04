@@ -4,7 +4,7 @@ metadata:
   annotations:
     source-file: podinfo-GitRepository-resource.yaml
   name: podinfo
-  namespace: sources
+  namespace: podinfo
 spec:
   interval: 5m0s
   ref:
