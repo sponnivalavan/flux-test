@@ -12,7 +12,6 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: bitnami
-        namespace: nginx
       version: 15.x
   interval: 5m0s
   targetNamespace: nginx
