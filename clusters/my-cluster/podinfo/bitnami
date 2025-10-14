@@ -1,0 +1,10 @@
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: HelmRepository
+metadata:
+  annotations:
+    source-file: bitnami
+  name: btinami
+  namespace: nginx2
+spec:
+  interval: 2m0s
+  url: https://charts.bitnami.com/bitnami
