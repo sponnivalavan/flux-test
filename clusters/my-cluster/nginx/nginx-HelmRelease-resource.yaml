@@ -4,7 +4,7 @@ metadata:
   annotations:
     source-file: nginx-HelmRelease-resource.yaml
   name: nginx
-  namespace: mario-nginx-test
+  namespace: nginx
 spec:
   chart:
     spec:
@@ -12,6 +12,6 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: bitnami
-        namespace: mario-nginx-test
+        namespace: nginx
   interval: 2m0s
-  targetNamespace: mario-nginx-test
+  targetNamespace: nginx
