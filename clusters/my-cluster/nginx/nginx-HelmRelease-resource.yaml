@@ -1,0 +1,17 @@
+apiVersion: helm.toolkit.fluxcd.io/v2
+kind: HelmRelease
+metadata:
+  annotations:
+    source-file: nginx-HelmRelease-resource.yaml
+  name: nginx
+  namespace: mario-nginx-test
+spec:
+  chart:
+    spec:
+      chart: ""
+      sourceRef:
+        kind: HelmRepository
+        name: bitnami
+        namespace: mario-nginx-test
+  interval: 2m0s
+  targetNamespace: mario-nginx-test
